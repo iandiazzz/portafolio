@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;700&display=swap');
+
+body{
+    background: lightgray;
+}
+
+/* Conteiner, para el body de la pagina*/
+.conteiner{
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+/*Seccion para el header*/
+
+header{
+    height: 70px;
+    width: calc 100%;
+    text-align: center;
+    line-height: 50px;   
+    font-weight: bold;
+    
+    
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Seccion para la navegacion*/
+
+nav{
+    background-color: gray;
+    width: calc (100% - 40px);
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 0px 20px 0px 20px;
+}
+
+nav ul li {
+    margin: 0px 20px 0px 20px;
+    float: left;
+    list-style: none;
+    
+}
+
+nav a{
+ text-decoration: none;  
+ padding: 0 10px 0 10px;
+ color: black;
+
+}
+
+nav a:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+nav a:active{
+    background-color: rgb(78, 78, 78);
+}
+
+/*Seccion para la section*/
+
+section {
+    display: flex;
+    justify-content: left;
+    width: calc (100% - 40px);
+    height: 100%;
+    margin: 10px 20px 0px 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: justify;
+}
+section img{
+    width: 30%;
+    border-radius: 25px;
+    max-height: 340px;
+}
+section p{
+    width: 70%;
+    margin-right: 15px;
+    
+}
+ 
+/*Seccion para el footer*/
+
+footer{  
+    
+    width: calc (100% - 40px);
+    height: 50px;
+    background-color: gray;
+    border-radius: 25px;
+    margin: 10px 20px 0px 20px;
+}
+
+.text-footer{
+    margin-top: 15px;
+    position: absolute;
+    margin-left: 500px;
+    
+}
+.img-footer{
+    
+    display: flex;
+    justify-content: right;
+    
+}
+.img-footer img{
+    width: 20px;
+    height: 20px;
+    margin: 10px 30px 0 0;
+    padding: 5px;
+}
+.img-footer img:hover{
+    background-color: lightgray;
+    
+    border-radius: 4px;
+    
+}
+ 
+
+
+.img-footer img:active{
+    background-color: rgb(78, 78, 78);
+}
+
+
+
+/*Contacto section*/
+
+.section{
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: unset;
+}
